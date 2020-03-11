@@ -1,0 +1,4 @@
+user_key:f085603a703f58b6ec93aa558fce3a58
+app_id:unc1dd2b14
+hostname:aiaas.pandorabots.com
+debug:true

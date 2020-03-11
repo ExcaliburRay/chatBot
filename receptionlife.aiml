@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+	<!-- insert your AIML categories here -->
+<category>
+    <pattern>*</pattern>
+    <template>
+        You can ask me question about your life or study in CMU-A
+                
+        1.traffic
+        2.shopping
+        3.food
+        4.apartment or house
+        5. Faculties
+        6. Campus Facilities
+        7. Activities
+    </template>
+</category>
+
+<category>
+    <pattern>hello</pattern>
+    <template>
+        <random>
+            <li>hello, new Tartans!</li>
+            <li>what's up!</li>
+            <li>how are you!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>hello *</pattern>
+    <template>
+        <random>
+            <li>hello, new Tartans!</li>
+            <li>what's up!</li>
+            <li>how are you!</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>see you</pattern>
+    <template>
+        <random>
+            <li>have a nice day!</li>
+            <li>bye</li>
+            <li>see you later</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>see you *</pattern>
+    <template>
+        <random>
+            <li>have a nice day!</li>
+            <li>bye</li>
+            <li>see you later</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>* see you *</pattern>
+    <template>
+        <random>
+            <li>have a nice day!</li>
+            <li>bye</li>
+            <li>see you later</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>bye</pattern>
+    <template>
+        <random>
+            <li>have a nice day!</li>
+            <li>bye</li>
+            <li>see you later</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>bye *</pattern>
+    <template>
+        <random>
+            <li>have a nice day!</li>
+            <li>bye</li>
+            <li>see you later</li>
+        </random>
+    </template>
+</category>
+
+<category>
+    <pattern>* bye *</pattern>
+    <template>
+        <random>
+            <li>have a nice day!</li>
+            <li>bye</li>
+            <li>see you later</li>
+        </random>
+    </template>
+</category>
+        
+
+<category>
+    <pattern>traffic</pattern>
+    <template>
+        You can choose following public transportation:
+        1.train
+        2.tram
+        3.bus
+        4.O-Bahn
+        5.Coach
+    </template>
+</category>
+
+<category>
+    <pattern>traffic *</pattern>
+    <template>
+        You can choose following public transportation:
+        1.train
+        2.tram
+        3.bus
+        4.O-Bahn
+        5.Coach
+    </template>
+</category>
+
+<category>
+    <pattern>* traffic *</pattern>
+    <template>
+        You can choose following public transportation:
+        1.train
+        2.tram
+        3.bus
+        4.O-Bahn
+        5.Coach
+    </template>
+</category>
+
+<category>
+    <pattern>* traffic</pattern>
+    <template>
+        You can choose following public transportation:
+        1.train
+        2.tram
+        3.bus
+        4.O-Bahn
+        5.Coach
+    </template>
+</category>
+
+
+
+<category>
+    <pattern>train</pattern>
+    <template>
+        1.arrive in full city of SA 
+        2.arrive at Melbourne,Sydney,Darwin etc.
+    </template>
+</category>
+
+<category>
+    <pattern>* routes * train</pattern>
+    <template>
+        1.arrive in full city of SA 
+        2.arrive at Melbourne,Sydney,Darwin etc.
+    </template>
+</category>
+
+<category>
+    <pattern>* routes * train *</pattern>
+    <template>
+        1.arrive in full city of SA 
+        2.arrive at Melbourne，Sydney, Darwin etc.
+    </template>
+</category>
+
+<category>
+    <pattern>* price * train</pattern>
+    <template>
+        Almost equal to travel by plane, but you can enjoy the scenery along the way
+    </template>
+</category>
+
+<category>
+    <pattern>* price * train *</pattern>
+    <template>
+         Almost equal to travel by plane, but you can enjoy the scenery along the way
+    </template>
+</category>
+
+<category>
+    <pattern>where * train *</pattern>
+    <template>
+         Train station is located in North Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>where * train</pattern>
+    <template>
+         Train station is located in North Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>* where * train *</pattern>
+    <template>
+         Train station is located in North Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>* where * train</pattern>
+    <template>
+         Train station is located in North Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>How * train *</pattern>
+    <template>
+         Train station is located in North Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>How * train</pattern>
+    <template>
+         Train station is located in North Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>* How * train *</pattern>
+    <template>
+         Train station is located in North Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>* How * train</pattern>
+    <template>
+         Train station is located in North Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>tram</pattern>
+    <template>
+        Entertainment Center -- City Center -- Glenelg
+        Free route:
+        Moseleysquare -- Glenelg
+        Brighton --Glenelg
+        Entertainment Center -- South Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>* tram *</pattern>
+    <template>
+        Entertainment Center -- City Center -- Glenelg
+        Free route:
+        Moseleysquare -- Glenelg
+        Brighton --Glenelg
+        Entertainment Center -- South Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>* tram</pattern>
+    <template>
+        Entertainment Center -- City Center -- Glenelg
+        Free route:
+        Moseleysquare -- Glenelg
+        Brighton --Glenelg
+        Entertainment Center -- South Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>tram *</pattern>
+    <template>
+        Entertainment Center -- City Center -- Glenelg
+        Free route:
+        Moseleysquare -- Glenelg
+        Brighton --Glenelg
+        Entertainment Center -- South Terrace
+    </template>
+</category>
+
+<category>
+    <pattern>bus</pattern>
+    <template>
+        1. Press the stop button before you want to get off
+        2. Adelaide Connector is for free
+        3. Apply one metro card will be cheaper to take bus
+    </template>
+</category>
+
+<category>
+    <pattern>* bus *</pattern>
+    <template>
+        1. Press the stop button before you want to get off
+        2. Adelaide Connector is for free
+        3. Apply one metro card will be cheaper to take bus
+    </template>
+</category>
+
+<category>
+    <pattern>* bus</pattern>
+    <template>
+        1. Press the stop button before you want to get off
+        2. Adelaide Connector is for free
+        3. Apply one metro card will be cheaper to take bus
+    </template>
+</category>
+
+<category>
+    <pattern>bus *</pattern>
+    <template>
+        1. Press the stop button before you want to get off
+        2. Adelaide Connector is for free
+        3. Apply one metro card will be cheaper to take bus
+    </template>
+</category>
+
+<category>
+    <pattern>metro card</pattern>
+    <template>
+        You can apply this in the following space(bring student card):
+        1.Adelaide Central Bus Station
+        2.King Willian Street
+        3.It's Convenient
+    </template>
+</category>
+
+<category>
+    <pattern>* metro card *</pattern>
+    <template>
+        You can apply this in the following space(bring student card):
+        1.Adelaide Central Bus Station
+        2.King Willian Street
+        3.It's Convenient
+    </template>
+</category>
+
+<category>
+    <pattern>* metro card</pattern>
+    <template>
+        You can apply this in the following space(bring student card):
+        1.Adelaide Central Bus Station
+        2.King Willian Street
+        3.It's Convenient
+    </template>
+</category>
+
+<category>
+    <pattern>metro card *</pattern>
+    <template>
+        You can apply this in the following space(bring student card):
+        1.Adelaide Central Bus Station
+        2.King Willian Street
+        3.It's Convenient
+    </template>
+</category>
+
+<category>
+    <pattern>O-Bahn</pattern>
+    <template>
+        fast and convenience
+        route: city center -- Tea Tree Plaza
+    </template>
+</category>
+
+<category>
+    <pattern>* O-Bahn *</pattern>
+    <template>
+        fast and convenience
+        route: city center -- Tea Tree Plaza
+    </template>
+</category>
+
+<category>
+    <pattern>* O-Bahn</pattern>
+    <template>
+        fast and convenience
+        route: city center -- Tea Tree Plaza
+    </template>
+</category>
+
+<category>
+    <pattern>O-Bahn *</pattern>
+    <template>
+        fast and convenience
+        route: city center -- Tea Tree Plaza
+    </template>
+</category>
+
+<category>
+    <pattern>routes * coach</pattern>
+    <template>
+        We recommend you to choose Greyhound Coaches
+        You could arrive at the following location:
+        1.Adelaide Hills
+        2.Barossa
+        3.Eyre Peninsula
+        4.Fleurieu Peninsula
+        5.Kangaroo Island
+        6.Murray River
+        7.Mount Gambier
+        8.Yorke Peninsula
+    </template>
+</category>
+
+<category>
+    <pattern>* routes * coach</pattern>
+    <template>
+        We recommend you to choose Greyhound Coaches
+        You could arrive at the following location:
+        1.Adelaide Hills
+        2.Barossa
+        3.Eyre Peninsula
+        4.Fleurieu Peninsula
+        5.Kangaroo Island
+        6.Murray River
+        7.Mount Gambier
+        8.Yorke Peninsula
+    </template>
+</category>
+
+<category>
+    <pattern>* routes * coach *</pattern>
+    <template>
+        We recommend you to choose Greyhound Coaches
+        You could arrive at the following location:
+        1.Adelaide Hills
+        2.Barossa
+        3.Eyre Peninsula
+        4.Fleurieu Peninsula
+        5.Kangaroo Island
+        6.Murray River
+        7.Mount Gambier
+        8.Yorke Peninsula
+    </template>
+</category>
+
+<category>
+    <pattern>route * coach</pattern>
+    <template>
+        We recommend you to choose Greyhound Coaches
+        You could arrive at the following location:
+        1.Adelaide Hills
+        2.Barossa
+        3.Eyre Peninsula
+        4.Fleurieu Peninsula
+        5.Kangaroo Island
+        6.Murray River
+        7.Mount Gambier
+        8.Yorke Peninsula
+    </template>
+</category>
+
+<category>
+    <pattern>* route * coach</pattern>
+    <template>
+        We recommend you to choose Greyhound Coaches
+        You could arrive at the following location:
+        1.Adelaide Hills
+        2.Barossa
+        3.Eyre Peninsula
+        4.Fleurieu Peninsula
+        5.Kangaroo Island
+        6.Murray River
+        7.Mount Gambier
+        8.Yorke Peninsula
+    </template>
+</category>
+
+<category>
+    <pattern>* route * coach *</pattern>
+    <template>
+        We recommend you to choose Greyhound Coaches
+        You could arrive at the following location:
+        1.Adelaide Hills
+        2.Barossa
+        3.Eyre Peninsula
+        4.Fleurieu Peninsula
+        5.Kangaroo Island
+        6.Murray River
+        7.Mount Gambier
+        8.Yorke Peninsula
+    </template>
+</category>
+
+<category>
+    <pattern>where * coach *</pattern>
+    <template>
+         Adelaide Central Bus Station is located in Franklin Street
+    </template>
+</category>
+
+<category>
+    <pattern>where * coach</pattern>
+    <template>
+         Adelaide Central Bus Station is located in Franklin Street
+    </template>
+</category>
+
+<category>
+    <pattern>* where * coach</pattern>
+    <template>
+         Adelaide Central Bus Station is located in Franklin Street
+    </template>
+</category>
+
+<category>
+    <pattern>How * coach *</pattern>
+    <template>
+         Adelaide Central Bus Station is located in Franklin Street
+    </template>
+</category>
+
+<category>
+    <pattern>How * coach</pattern>
+    <template>
+         Adelaide Central Bus Station is located in Franklin Street
+    </template>
+</category>
+
+<category>
+    <pattern>* How * coach</pattern>
+    <template>
+         Adelaide Central Bus Station is located in Franklin Street
+    </template>
+</category>
+
+<category>
+    <pattern>house</pattern>
+    <template>
+        You can find apartment through recommendation by our campus' instructor
+    </template>
+</category>
+
+<category>
+    <pattern>* house</pattern>
+    <template>
+        You can find apartment through recommendation by our campus' instructor
+    </template>
+</category>
+
+<category>
+    <pattern>* house *</pattern>
+    <template>
+        You can find apartment through recommendation by our campus' instructor
+    </template>
+</category>
+
+<category>
+    <pattern>house *</pattern>
+    <template>
+        You can find apartment through recommendation by our campus' instructor
+    </template>
+</category>
+
+<category>
+    <pattern>* find * apartment</pattern>
+    <template>
+        You can find apartment through recommendation by our campus' instructor or choose Atira
+    </template>
+</category>
+
+<category>
+    <pattern>* find * apartment *</pattern>
+    <template>
+        You can find apartment through recommendation by our campus' instructor or choose Atira
+    </template>
+</category>
+
+<category>
+    <pattern>* look for * apartment *</pattern>
+    <template>
+        You can find apartment through recommendation by our campus' instructor or choose Atira
+    </template>
+</category>
+
+<category>
+    <pattern>* looking for * apartment *</pattern>
+    <template>
+        You can find apartment through recommendation by our campus' instructor or choose Atira
+    </template>
+</category>
+
+<category>
+    <pattern>apartment *</pattern>
+    <template>
+        You can find apartment through recommendation by our campus' instructor or choose Atira
+    </template>
+</category>
+
+<category>
+    <pattern>apartment</pattern>
+    <template>
+        You can find apartment through recommendation by our campus' instructor or choose Atira
+    </template>
+</category>
+
+<category>
+    <pattern>* restaurants *</pattern>
+    <template>
+        You have the following options:
+        1.ChinaTown
+        2.RundleMall
+    </template>
+</category>
+
+<category>
+    <pattern>* restaurants</pattern>
+    <template>
+        You have the following options:
+        1.ChinaTown
+        2.RundleMall
+    </template>
+</category>
+
+<category>
+    <pattern>restaurants</pattern>
+    <template>
+        You have the following options:
+        1.ChinaTown
+        2.RundleMall
+    </template>
+</category>
+
+<category>
+    <pattern>shopping</pattern>
+    <template>
+        You can come to central market or rundle mall.
+    </template>
+</category>
+
+<category>
+    <pattern>* shopping</pattern>
+    <template>
+        You can come to central market or rundle mall.
+    </template>
+</category>
+
+<category>
+    <pattern>* shopping *</pattern>
+    <template>
+        You can come to central market or rundle mall.
+    </template>
+</category>
+
+<category>
+    <pattern>chinatown</pattern>
+    <template>
+        Chinatown has lots of Chinese traditional food and lots of stores supply Chinese service
+    </template>
+</category>
+
+<category>
+    <pattern>what * chinatown *</pattern>
+    <template>
+        Chinatown has lots of Chinese traditional food and lots of stores supply Chinese service
+    </template>
+</category>
+
+<category>
+    <pattern>what * chinatown</pattern>
+    <template>
+        Chinatown has lots of Chinese traditional food and lots of stores supply Chinese service
+    </template>
+</category>
+
+<category>
+    <pattern>* what * chinatown</pattern>
+    <template>
+        Chinatown has lots of Chinese traditional food and lots of stores supply Chinese service
+    </template>
+</category>
+
+<category>
+    <pattern>where * chinatown</pattern>
+    <template>
+        It is located in 18 Moonta St
+    </template>
+</category>
+
+<category>
+    <pattern>* where * chinatown</pattern>
+    <template>
+        It is located in 18 Moonta St
+    </template>
+</category>
+
+<category>
+    <pattern>what * chinatown *</pattern>
+    <template>
+        Chinatown has lots of Chinese traditional food and lots of stores supply Chinese service
+    </template>
+</category>
+
+<category>
+    <pattern>rundlemall</pattern>
+    <template>
+        Rundlemall is the biggest CBD in adelaide, you can buy lots of goods here
+    </template>
+</category>
+
+<category>
+    <pattern>* what * rundlemall</pattern>
+    <template>
+        Rundlemall is the biggest CBD in adelaide, you can buy lots of goods here
+    </template>
+</category>
+
+<category>
+    <pattern>what * rundlemall</pattern>
+    <template>
+        Rundlemall is the biggest CBD in adelaide, you can buy lots of goods here
+    </template>
+</category>
+
+<category>
+    <pattern>what * rundlemall *</pattern>
+    <template>
+        Rundlemall is the biggest CBD in adelaide, you can buy lots of goods here
+    </template>
+</category>
+
+<category>
+    <pattern>* how * rundlemall</pattern>
+    <template>
+        Rundlemall is the biggest CBD in adelaide, you can buy lots of goods here
+    </template>
+</category>
+
+<category>
+    <pattern>how * rundlemall</pattern>
+    <template>
+        Rundlemall is the biggest CBD in adelaide, you can buy lots of goods here
+    </template>
+</category>
+
+<category>
+    <pattern>how * rundlemall *</pattern>
+    <template>
+        Rundlemall is the biggest CBD in adelaide, you can buy lots of goods here
+    </template>
+</category>
+
+<category>
+    <pattern>where * rundlemall</pattern>
+    <template>
+        Leave our campus and go north in 500 meters
+    </template>
+</category>
+
+<category>
+    <pattern>where * rundlemall *</pattern>
+    <template>
+        Leave our campus and go north in 500 meters
+    </template>
+</category>
+
+<category>
+    <pattern>* where * rundlemall *</pattern>
+    <template>
+        Leave our campus and go north in 500 meters
+    </template>
+</category>
+
+<category>
+    <pattern>* food *</pattern>
+    <template>
+        You can choose the following food style:
+        1. Southeast Asian Cuisine
+        2. French Cuisine
+        3. Italian Cuisine
+        4. Chinese Cuisine
+        5. Japanese Cuisine
+    </template>
+</category>
+
+<category>
+    <pattern>food *</pattern>
+    <template>
+        You can choose the following food style:
+        1. Southeast Asian Cuisine
+        2. French Cuisine
+        3. Italian Cuisine
+        4. Chinese Cuisine
+        5. Japanese Cuisine
+    </template>
+</category>
+
+<category>
+    <pattern>* food</pattern>
+    <template>
+        You can choose the following food style:
+        1. Southeast Asian Cuisine
+        2. French Cuisine
+        3. Italian Cuisine
+        4. Chinese Cuisine
+        5. Japanese Cuisine
+    </template>
+</category>
+
+<category>
+    <pattern>food</pattern>
+    <template>
+        You can choose the following food style:
+        1. Southeast Asian Cuisine
+        2. French Cuisine
+        3. Italian Cuisine
+        4. Chinese Cuisine
+        5. Japanese Cuisine
+    </template>
+</category>
+
+<category>
+    <pattern>Southeast Asian Cuisine</pattern>
+    <template>
+        1. Lemongrass Thai Bistro Address:289 Rundle St
+        2. Mai Kitchen Address:Corner Wright and Warren Streets
+        3. Social Street S2 Address:174a Hutt St
+    </template>
+</category>
+
+<category>
+    <pattern>* Southeast Asian Cuisine *</pattern>
+    <template>
+        1. Lemongrass Thai Bistro Address:289 Rundle St
+        2. Mai Kitchen Address:Corner Wright and Warren Streets
+        3. Social Street S2 Address:174a Hutt St
+    </template>
+</category>
+
+<category>
+    <pattern>Southeast Asian Cuisine *</pattern>
+    <template>
+        1. Lemongrass Thai Bistro Address:289 Rundle St
+        2. Mai Kitchen Address:Corner Wright and Warren Streets
+        3. Social Street S2 Address:174a Hutt St
+    </template>
+</category>
+
+<category>
+    <pattern>* Southeast Asian Cuisine</pattern>
+    <template>
+        1. Lemongrass Thai Bistro Address:289 Rundle St
+        2. Mai Kitchen Address:Corner Wright and Warren Streets
+        3. Social Street S2 Address:174a Hutt St
+    </template>
+</category>
+
+<category>
+    <pattern>French Cuisine</pattern>
+    <template>
+        1. Delicatessen Address:12 Waymouth St
+        2. Cliche Address:26 O'Connell St
+        3. Chloe's Restaurant Address:36 College Rd, Kent Town
+    </template>
+</category>
+
+<category>
+    <pattern>* French Cuisine *</pattern>
+    <template>
+        1. Delicatessen Address:12 Waymouth St
+        2. Cliche Address:26 O'Connell St
+        3. Chloe's Restaurant Address:36 College Rd, Kent Town
+    </template>
+</category>
+
+<category>
+    <pattern>French Cuisine *</pattern>
+    <template>
+        1. Delicatessen Address:12 Waymouth St
+        2. Cliche Address:26 O'Connell St
+        3. Chloe's Restaurant Address:36 College Rd, Kent Town
+    </template>
+</category>
+
+<category>
+    <pattern>* French Cuisine</pattern>
+    <template>
+        1. Delicatessen Address:12 Waymouth St
+        2. Cliche Address:26 O'Connell St
+        3. Chloe's Restaurant Address:36 College Rd, Kent Town
+    </template>
+</category>
+
+<category>
+    <pattern>Italian Cuisine</pattern>
+    <template>
+        1. Luigi Delicatessen Address:151 Flinders Street
+        2. Rigoni's Bistro Address:27 Leigh St
+        3. Andre's Cucina and Polenta Bar Address:94 Frome Street
+    </template>
+</category>
+
+<category>
+    <pattern>* Italian Cuisine *</pattern>
+    <template>
+        1. Luigi Delicatessen Address:151 Flinders Street
+        2. Rigoni's Bistro Address:27 Leigh St
+        3. Andre's Cucina and Polenta Bar Address:94 Frome Street
+    </template>
+</category>
+
+<category>
+    <pattern>Italian Cuisine *</pattern>
+    <template>
+        1. Luigi Delicatessen Address:151 Flinders Street
+        2. Rigoni's Bistro Address:27 Leigh St
+        3. Andre's Cucina and Polenta Bar Address:94 Frome Street
+    </template>
+</category>
+
+<category>
+    <pattern>* Italian Cuisine</pattern>
+    <template>
+        1. Luigi Delicatessen Address:151 Flinders Street
+        2. Rigoni's Bistro Address:27 Leigh St
+        3. Andre's Cucina and Polenta Bar Address:94 Frome Street
+    </template>
+</category>
+
+<category>
+    <pattern>Chinese Cuisine</pattern>
+    <template>
+        1. Concubine Address:132 Gouger St
+        2. Hong Kee Restaurant Address:218 Morphett St
+        3. Yue Chinese Restaurant Address:72 Unley Rd
+    </template>
+</category>
+
+<category>
+    <pattern>Chinese Cuisine *</pattern>
+    <template>
+        1. Concubine Address:132 Gouger St
+        2. Hong Kee Restaurant Address:218 Morphett St
+        3. Yue Chinese Restaurant Address:72 Unley Rd
+    </template>
+</category>
+
+<category>
+    <pattern>* Chinese Cuisine *</pattern>
+    <template>
+        1. Concubine Address:132 Gouger St
+        2. Hong Kee Restaurant Address:218 Morphett St
+        3. Yue Chinese Restaurant Address:72 Unley Rd
+    </template>
+</category>
+
+<category>
+    <pattern>* Chinese Cuisine</pattern>
+    <template>
+        1. Concubine Address:132 Gouger St
+        2. Hong Kee Restaurant Address:218 Morphett St
+        3. Yue Chinese Restaurant Address:72 Unley Rd
+    </template>
+</category>
+
+<category>
+    <pattern>Japanese Cuisine</pattern>
+    <template>
+        1. Shiki Address:InterContinental Hotel | North Terrace
+        2. Wasai Japanese Kitchen Address:9-15 Field St
+        3. Sushi Train Address:Gouger Street
+    </template>
+</category>
+
+<category>
+    <pattern>Japanese Cuisine *</pattern>
+    <template>
+        1. Shiki Address:InterContinental Hotel | North Terrace
+        2. Wasai Japanese Kitchen Address:9-15 Field St
+        3. Sushi Train Address:Gouger Street
+    </template>
+</category>
+
+<category>
+    <pattern>* Japanese Cuisine *</pattern>
+    <template>
+        1. Shiki Address:InterContinental Hotel | North Terrace
+        2. Wasai Japanese Kitchen Address:9-15 Field St
+        3. Sushi Train Address:Gouger Street
+    </template>
+</category>
+
+<category>
+    <pattern>* Japanese Cuisine</pattern>
+    <template>
+        1. Shiki Address:InterContinental Hotel | North Terrace
+        2. Wasai Japanese Kitchen Address:9-15 Field St
+        3. Sushi Train Address:Gouger Street
+    </template>
+</category>
+
+            
+     <category>
+        <pattern>faculties</pattern>
+        <template>
+            What do you want to know about faculties?
+        </template>
+      </category>
+
+      <category>
+        <pattern>faculties *</pattern>
+        <template>
+            What do you want to know about faculties?
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* faculties *</pattern>
+        <template>
+            What do you want to know about faculties?
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* faculties</pattern>
+        <template>
+            What do you want to know about faculties?
+        </template>
+      </category>
+      
+      <category>
+        <pattern>Lourdes *</pattern>
+        <template>
+            Lourdes Almeda is the manager of graduate program, you will need to 
+            talk to her before and during your course registration.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>Lourdes</pattern>
+        <template>
+            Lourdes Almeda is the manager of graduate program, you will need to 
+            talk to her before and during your course registration.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* Lourdes *</pattern>
+        <template>
+            Lourdes Almeda is the manager of graduate program, you will need to 
+            talk to her before and during your course registration.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* Lourdes</pattern>
+        <template>
+            Lourdes Almeda is the manager of graduate program, you will need to 
+            talk to her before and during your course registration.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>registration</pattern>
+        <template>
+            Lourdes Almeda is the manager of graduate program, you will need to 
+            talk to her before and during your course registration.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* registration</pattern>
+        <template>
+            Lourdes Almeda is the manager of graduate program, you will need to 
+            talk to her before and during your course registration.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>registration *</pattern>
+        <template>
+            Lourdes Almeda is the manager of graduate program, you will need to 
+            talk to her before and during your course registration.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>IT</pattern>
+        <template>
+            If you have a IT problem, you want to go to ground floor to find Ben, 
+            Mark, or Gary.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* IT</pattern>
+        <template>
+            If you have a IT problem, you want to go to ground floor to find Ben, 
+            Mark, or Gary.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* IT *</pattern>
+        <template>
+            If you have a IT problem, you want to go to ground floor to find Ben, 
+            Mark, or Gary.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>computer</pattern>
+        <template>
+            If you have a IT problem, you want to go to ground floor to find Ben, 
+            Mark, or Gary.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* computer</pattern>
+        <template>
+            If you have a IT problem, you want to go to ground floor to find Ben, 
+            Mark, or Gary.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* computer *</pattern>
+        <template>
+            If you have a IT problem, you want to go to ground floor to find Ben,
+            Mark, or Gary.
+        </template>
+      </category>
+    
+             <category>
+        <pattern>Ben</pattern>
+        <template>
+            Ben is the Director of ITC. If you have a IT problem, you want to go to
+            ground floor to find Ben, Mark, or Gary.
+        </template>
+      </category>
+      <category>
+        <pattern>Ben *</pattern>
+        <template>
+            Ben is the Director of ITC. If you have a IT problem, you want to go to
+            ground floor to find Ben, Mark, or Gary.
+        </template>
+      </category>
+
+      <category>
+        <pattern>* Ben</pattern>
+        <template>
+            Ben is the Director of ITC. If you have a IT problem, you want to go to
+            ground floor to find Ben, Mark, or Gary.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* Ben *</pattern>
+        <template>
+            Ben is the Director of ITC. If you have a IT problem, you want to go to
+            ground floor to find Ben, Mark, or Gary.
+        </template>
+      </category>
+       <category>
+        <pattern>Mark</pattern>
+        <template>
+            Mark Hamon is Senior Information Systems Specialist. If you have a IT 
+            problem, you want to go to ground floor to find Ben, Mark, or Gary.
+        </template>
+      </category>
+
+      <category>
+        <pattern>* Mark</pattern>
+        <template>
+            Mark Hamon is Senior Information Systems Specialist. If you have a IT 
+            problem, you want to go to ground floor to find Ben, Mark, or Gary.
+        </template>
+      </category>
+
+      <category>
+        <pattern>Mark *</pattern>
+        <template>
+            Mark Hamon is Senior Information Systems Specialist. If you have a IT 
+            problem, you want to go to ground floor to find Ben, Mark, or Gary.
+        </template>
+      </category>
+
+      
+      <category>
+        <pattern>* Mark *</pattern>
+        <template>
+            Mark Hamon is Senior Information Systems Specialist. If you have a IT 
+            problem, you want to go to ground floor to find Ben, Mark, or Gary.
+        </template>
+      </category>
+  
+      <category>
+        <pattern>question</pattern>
+        <template>
+            If you have any questions, you are welcome to ask them to Nereshnee 
+            Shunmugam, our Manager of Admissions and Student Services.
+            
+        </template>
+      </category>
+
+      <category>
+        <pattern>questions</pattern>
+        <template>
+            If you have any questions, no matter on campus or off campus, you are 
+            welcome to ask them to Nereshnee Shunmugam, our Manager of Admissions 
+            and Student Services
+        </template>
+      </category>
+            <category>
+        <pattern>questions *</pattern>
+        <template>
+            If you have any questions, no matter on campus or off campus, you are 
+            welcome to ask them to Nereshnee Shunmugam, our Manager of Admissions 
+            and Student Services
+        </template>
+      </category>
+            <category>
+        <pattern>* questions</pattern>
+        <template>
+            If you have any questions, no matter on campus or off campus, you are 
+            welcome to ask them to Nereshnee Shunmugam, our Manager of Admissions 
+            and Student Services
+        </template>
+      </category>
+            <category>
+        <pattern>* questions *</pattern>
+        <template>
+            If you have any questions, no matter on campus or off campus, you are 
+            welcome to ask them to Nereshnee Shunmugam, our Manager of Admissions 
+            and Student Services
+        </template>
+      </category>
+      <category>
+        <pattern>* question</pattern>
+        <template>
+            If you have any questions, no matter on campus or off campus, you are 
+            welcome to ask them to Nereshnee Shunmugam, our Manager of Admissions
+            and Student Services
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* question *</pattern>
+        <template>
+            If you have any questions, no matter on campus or off campus, you are 
+            welcome to ask them to Nereshnee Shunmugam, our Manager of Admissions 
+            and Student Services
+        </template>
+      </category>
+      
+      <category>
+        <pattern>nereshnee</pattern>
+        <template>
+            Nereshnee Shunmugam is our Manager of Admissions and Student ServicesIf 
+            you have any questions, no matter on campus or off campus, feel free 
+            to ask her.
+        </template>
+      </category>
+
+      <category>
+        <pattern>* nereshnee</pattern>
+        <template>
+            Nereshnee Shunmugam is our Manager of Admissions and Student ServicesIf 
+            you have any questions, no matter on campus or off campus, feel free 
+            to ask her.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* nereshnee *</pattern>
+        <template>
+            Nereshnee Shunmugam is our Manager of Admissions and Student ServicesIf 
+            you have any questions, no matter on campus or off campus, feel free 
+            to ask her.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>nereshnee *</pattern>
+        <template>
+            Nereshnee Shunmugam is our Manager of Admissions and Student ServicesIf 
+            you have any questions, no matter on campus or off campus, feel free 
+            to ask her.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>career</pattern>
+        <template>
+            Faith Yong is career and internship advisor, you can ask her anything 
+            about job. She is a part time faculty on the ground floor.
+        </template>
+      </category>
+   
+   <category>
+        <pattern>career *</pattern>
+        <template>
+            Faith Yong is career and internship advisor, you can ask her anything 
+            about job. She is a part time faculty on the ground floor.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* career *</pattern>
+        <template>
+            Faith Yong is career and internship advisor, you can ask her anything 
+            about job. She is a part time faculty on the ground floor.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* career</pattern>
+        <template>
+            Faith Yong is career and internship advisor, you can ask her anything 
+            about job. She is a part time faculty on the ground floor.
+        </template>
+      </category>
+      <category>
+        <pattern>internship</pattern>
+        <template>
+            Faith Yong is career and internship advisor, you can ask her anything 
+            about job. She is a part time faculty on the ground floor.
+        </template>
+      </category>
+
+      <category>
+        <pattern>* internship</pattern>
+        <template>
+            Faith Yong is career and internship advisor, you can ask her anything 
+            about job. She is a part time faculty on the ground floor.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>internship *</pattern>
+        <template>
+            Faith Yong is career and internship advisor, you can ask her anything 
+            about job. She is a part time faculty on the ground floor.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* internship *</pattern>
+        <template>
+            Faith Yong is career and internship advisor, you can ask her anything 
+            about job. She is a part time faculty on the ground floor.
+        </template>
+      </category>
+    
+      <category>
+        <pattern>Faith</pattern>
+        <template>
+            Faith Yong is career and internship advisor, you can ask her anything 
+            about job. She is a part time faculty on the ground floor.
+        </template>
+      </category>
+
+      <category>
+        <pattern>Faith *</pattern>
+        <template>
+            Faith Yong is career and internship advisor, you can ask her anything 
+            about job. She is a part time faculty on the ground floor.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* Faith *</pattern>
+        <template>
+            Faith Yong is career and internship advisor, you can ask her anything 
+            about job. She is a part time faculty on the ground floor.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>pixie</pattern>
+        <template>
+            Pixie Yeap is the director of programs. She has a lovely child.
+        </template>
+      </category>
+     
+ <category>
+        <pattern>pixie *</pattern>
+        <template>
+            Pixie Yeap is the director of programs. She has a lovely child.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* pixie *</pattern>
+        <template>
+            Pixie Yeap is the director of programs. She has a lovely child.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* pixie</pattern>
+        <template>
+            Pixie Yeap is the director of programs. She has a lovely child.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>facilities</pattern>
+        <template>
+            What do you want to know about facilities?
+            1. Kitchen
+            2. Bathroom
+            3. Play Room
+            4. Study Space
+        </template>
+      </category>
+
+      <category>
+        <pattern>facilities *</pattern>
+        <template>
+            What do you want to know about facilities?
+            1. Kitchen
+            2. Bathroom
+            3. Play Room
+            4. Study Space
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* facilities *</pattern>
+        <template>
+            What do you want to know about facilities?
+            1. Kitchen
+            2. Bathroom
+            3. Play Room
+            4. Study Space
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* facilities</pattern>
+        <template>
+            What do you want to know about facilities?
+            1. Kitchen
+            2. Bathroom
+            3. Play Room
+            4. Study Space
+        </template>
+      </category>
+      
+      <category>
+        <pattern>kitchen</pattern>
+        <template>
+            CMUA kitchen is located on the ground floor, it has a refrigerator and 
+            two microwave oven within it. Students can have their meals in the 
+            kitchen. Also free coffee and tea will be provided.
+        </template>
+      </category>
+
+      <category>
+        <pattern>kitchen *</pattern>
+        <template>
+            CMUA kitchen is located on the ground floor, it has a refrigerator and 
+            two microwave oven within it. Students can have their meals in the 
+            kitchen. Also free coffee and tea will be provided.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* kitchen *</pattern>
+        <template>
+            CMUA kitchen is located on the ground floor, it has a refrigerator and 
+            two microwave oven within it. Students can have their meals in the 
+            kitchen. Also free coffee and tea will be provided.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* kitchen</pattern>
+        <template>
+            CMUA kitchen is located on the ground floor, it has a refrigerator and 
+            two microwave oven within it. Students can have their meals in the 
+            kitchen. Also free coffee and tea will be provided.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>bathroom</pattern>
+        <template>
+            CMUA has bathrooms with shower with shower in them. There will be 
+            bathrooms on the ground floor and first floor. 
+        </template>
+      </category>
+
+      <category>
+        <pattern>* bathroom</pattern>
+        <template>
+            CMUA has bathrooms with shower with shower in them. There will be 
+            bathrooms on the ground floor and first floor. 
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* bathroom *</pattern>
+        <template>
+            CMUA has bathrooms with shower with shower in them. There will be 
+            bathrooms on the ground floor and first floor. 
+        </template>
+      </category>
+      
+      <category>
+        <pattern>toilet</pattern>
+        <template>
+            CMUA has bathrooms with shower with shower in them. There will be 
+            bathrooms on the ground floor and first floor. 
+        </template>
+      </category>
+
+      <category>
+        <pattern>* toilet</pattern>
+        <template>
+            CMUA has bathrooms with shower with shower in them. There will be 
+            bathrooms on the ground floor and first floor. 
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* toilet *</pattern>
+        <template>
+            CMUA has bathrooms with shower with shower in them. There will be 
+            bathrooms on the ground floor and first floor. 
+        </template>
+      </category>
+      
+      <category>
+        <pattern>shower</pattern>
+        <template>
+            CMUA has bathrooms with shower with shower in them. There will be 
+            bathrooms on the ground floor and first floor. 
+        </template>
+      </category>
+
+      <category>
+        <pattern>* shower</pattern>
+        <template>
+            CMUA has bathrooms with shower with shower in them. There will be 
+            bathrooms on the ground floor and first floor. 
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* shower *</pattern>
+        <template>
+            CMUA has bathrooms with shower with shower in them. There will be 
+            bathrooms on the ground floor and first floor. 
+        </template>
+      </category>
+      
+      <category>
+        <pattern>play room</pattern>
+        <template>
+            CMUA offers a play room on the ground floor. Students can play video 
+            games and ping pong with friends to relax. 
+        </template>
+      </category>
+
+      <category>
+        <pattern>* play room</pattern>
+        <template>
+            CMUA offers a play room on the ground floor. Students can play video 
+            games and ping pong with friends to relax. 
+        </template>
+      </category>
+
+      <category>
+        <pattern>play room *</pattern>
+        <template>
+            CMUA offers a play room on the ground floor. Students can play video 
+            games and ping pong with friends to relax. 
+        </template>
+      </category>
+
+      
+      <category>
+        <pattern>* play room *</pattern>
+        <template>
+            CMUA offers a play room on the ground floor. Students can play video 
+            games and ping pong with friends to relax. 
+        </template>
+      </category>
+      
+      <category>
+        <pattern>study space *</pattern>
+        <template>
+            Study spaces are on the ground floor and frist floor. Students can book
+            group study space online.
+        </template>
+      </category>
+
+      <category>
+        <pattern>study space</pattern>
+        <template>
+            Study spaces are on the ground floor and frist floor. Students can book
+            group study space online.
+        </template>
+      </category>
+
+      <category>
+        <pattern>* study space</pattern>
+        <template>
+            Study spaces are on the ground floor and frist floor. Students can book
+            group study space online.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>* study space *</pattern>
+        <template>
+            Study spaces are on the ground floor and first floor. Students can book
+            group study space online.
+        </template>
+      </category>
+      
+      <category>
+        <pattern>activities</pattern>
+        <template>
+            SRC will host activities on and off campus.
+        </template>
+      </category>
+
+      <category>
+        <pattern>activities *</pattern>
+        <template>
+            SRC will host activities on and off campus.
+        </template>
+      </category>
+      
+        <category>
+        <pattern>* activities</pattern>
+        <template>
+            SRC will host activities on and off campus.
+        </template>
+      </category>
+      
+        <category>
+        <pattern>* activities *</pattern>
+        <template>
+            SRC will host activities on and off campus.
+        </template>
+      </category>
+      
+        <category>
+        <pattern>SRC</pattern>
+        <template>
+            SRC will host activities on and off campus.
+        </template>
+      </category>
+
+        <category>
+        <pattern>SRC *</pattern>
+        <template>
+            SRC will host activities on and off campus.
+        </template>
+      </category>
+      
+        <category>
+        <pattern>* SRC *</pattern>
+        <template>
+            SRC will host activities on and off campus.
+        </template>
+      </category>
+      
+        <category>
+        <pattern>* SRC</pattern>
+        <template>
+            SRC will host activities on and off campus.
+        </template>
+      </category>
+</aiml>
+

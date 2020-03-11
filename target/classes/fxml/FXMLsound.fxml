@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chatboxUI.FXMLsound">
+   <children>
+      <AnchorPane fx:id="body" layoutY="77.0" prefHeight="490.0" prefWidth="450.0" style="-fx-background-color: #3D4959;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" layoutY="443.0" prefHeight="80.0" prefWidth="450.0" spacing="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <padding>
+                  <Insets right="-150.0" top="-30.0" />
+               </padding>
+            </HBox>
+            <VBox layoutY="286.0" prefHeight="121.0" prefWidth="450.0" AnchorPane.bottomAnchor="116.0" AnchorPane.topAnchor="286.0">
+               <children>
+                  <AnchorPane prefHeight="187.0" prefWidth="377.0" />
+                  <Button fx:id="create" alignment="CENTER" mnemonicParsing="false" onAction="#ClickCruiseButton" prefHeight="39.0" prefWidth="169.0" style="-fx-background-color: #eda678; -fx-border-radius: 5em; -fx-background-radius: 5em;" text="SPEAK" textFill="#656262">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets left="250.0" />
+               </padding>
+            </VBox>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="318.0" layoutY="36.0">
+               <image>
+                  <Image url="@../pics_folder/psyduck.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="52.0" layoutY="103.0" text="Talking to the chatbot" textFill="WHITE">
+               <font>
+                  <Font name="AppleMyungjo Regular" size="19.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="143.0" prefHeight="34.0" prefWidth="289.0" text="Instructions:     " textFill="WHITE" wrapText="true">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="52.0" layoutY="187.0" text="Step1: Make sure your microphone is valid in JavaFX   " textFill="#f8f8f8" wrapText="true" />
+            <Label layoutX="52.0" layoutY="217.0" text="Step2: Click the Speak Button, and speak out your question" textFill="#f8f8f8" />
+            <Label layoutX="52.0" layoutY="247.0" text="Step3: Out bot will response to your question." textFill="#f8f8f8" />
+            <Label layoutX="52.0" layoutY="277.0" text="Step4: Talk as many time times as you want. (In Step 2,3)" textFill="#f8f8f8" />
+            <ImageView fitHeight="87.0" fitWidth="129.0" layoutX="106.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../java/pics_folder/psyduck.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="header" prefHeight="55.0" prefWidth="450.0" style="-fx-background-color: #3D4959;">
+         <children>
+            <ImageView fx:id="powerButton" fitHeight="53.0" fitWidth="52.0" layoutX="14.0" layoutY="1.0" onMouseClicked="#ClickPowerButton">
+               <image>
+                  <Image url="@../pics_folder/power-button.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menubutton" fitHeight="53.0" fitWidth="52.0" layoutX="138.0" layoutY="1.0" onMouseClicked="#clickMenu">
+               <image>
+                  <Image url="@../pics_folder/house.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="returnButton" fitHeight="52.0" fitWidth="53.0" layoutX="250.0" layoutY="2.0" onMouseClicked="#clickMenu">
+               <image>
+                  <Image url="@../pics_folder/back.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="53.0" fitWidth="53.0" layoutX="367.0" layoutY="1.0">
+               <image>
+                  <Image url="@../pics_folder/quaver.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>

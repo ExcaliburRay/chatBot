@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="background" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="450.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chatboxUI.FXMLtype">
+   <children>
+      <AnchorPane fx:id="body" layoutY="77.0" prefHeight="490.0" prefWidth="450.0" style="-fx-background-color: #3D4959;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <HBox alignment="CENTER" layoutY="451.0" prefHeight="72.0" prefWidth="450.0" spacing="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+               <padding>
+                  <Insets right="-150.0" top="-50.0" />
+               </padding>
+            </HBox>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="302.0" layoutY="37.0">
+               <image>
+                  <Image url="@../pics_folder/charmander.png" />
+               </image>
+            </ImageView>
+            <JFXTextField fx:id="inputarea" alignment="BOTTOM_LEFT" focusColor="#e8e8eb" layoutX="42.0" layoutY="111.0" onKeyReleased="#keyReleased" prefHeight="66.0" prefWidth="350.0" style="-fx-text-inner-color: white;">
+               <font>
+                  <Font name="Arial Unicode MS" size="14.0" />
+               </font></JFXTextField>
+            <JFXTextArea fx:id="responsearea" focusColor="#e4e5e8" layoutX="46.0" layoutY="300.0" prefHeight="162.0" prefWidth="350.0" style="-fx-text-inner-color: white;" unFocusColor="#3d4959" wrapText="true">
+               <font>
+                  <Font name="Arial Unicode MS" size="13.0" />
+               </font></JFXTextArea>
+            <Label layoutX="42.0" layoutY="77.0" text="Please Type Your Question" textFill="#f2f2f2">
+               <font>
+                  <Font name="Arial Unicode MS" size="17.0" />
+               </font></Label>
+            <Label layoutX="50.0" layoutY="262.0" text="GOGOBOTS" textFill="WHITE">
+               <font>
+                  <Font name="Arial Unicode MS" size="17.0" />
+               </font></Label>
+            <Button fx:id="submitbutton" alignment="CENTER" layoutX="226.0" layoutY="195.0" mnemonicParsing="false" onAction="#clickSubmit" prefHeight="39.0" prefWidth="169.0" style="-fx-background-color: #eda678; -fx-border-radius: 5em; -fx-background-radius: 5em;" text="SUBMIT" textFill="#ebdbdb">
+               <font>
+                  <Font name="System Bold Italic" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="header" prefHeight="55.0" prefWidth="450.0" style="-fx-background-color: #3D4959;">
+         <children>
+            <ImageView fx:id="powerButton" fitHeight="53.0" fitWidth="52.0" layoutX="14.0" layoutY="1.0" onMouseClicked="#ClickPowerButton">
+               <image>
+                  <Image url="@../pics_folder/power-button.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="53.0" fitWidth="52.0" layoutX="367.0" layoutY="1.0">
+               <image>
+                  <Image url="@../pics_folder/quaver.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="returnbutton" fitHeight="53.0" fitWidth="52.0" layoutX="253.0" layoutY="1.0" onMouseClicked="#clickMenu">
+               <image>
+                  <Image url="@../pics_folder/back.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="menu" fitHeight="53.0" fitWidth="52.0" layoutX="121.0" layoutY="-1.0" onMouseClicked="#clickMenu">
+               <image>
+                  <Image url="@../pics_folder/house.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</AnchorPane>
